@@ -1,0 +1,23 @@
+{
+  "agents": {
+    "list": [
+      { "id": "main", "default": true, "workspace": "/home/keiraops/.openclaw/workspace" },
+      { "id": "upsl-client", "workspace": "/home/keiraops/.openclaw/workspace", "agentDir": "/home/keiraops/.openclaw/workspace/agents/upsl-client" },
+      { "id": "upsl-ops", "workspace": "/home/keiraops/.openclaw/workspace", "agentDir": "/home/keiraops/.openclaw/workspace/agents/upsl-ops" }
+    ]
+  },
+  "bindings": [
+    { "agentId": "main", "match": { "channel": "whatsapp", "accountId": "default" } },
+    { "agentId": "upsl-client", "match": { "channel": "whatsapp", "accountId": "upsl" } },
+    { "agentId": "upsl-ops", "match": { "channel": "whatsapp", "accountId": "upsl-ops" } }
+  ],
+  "channels": {
+    "whatsapp": {
+      "accounts": {
+        "upsl": { "dmPolicy": "open", "allowFrom": ["*"] },
+        "upsl-ops": { "dmPolicy": "pairing" },
+        "default": { "dmPolicy": "pairing" }
+      }
+    }
+  }
+}

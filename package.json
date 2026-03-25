@@ -1,0 +1,14 @@
+{
+  "name": "upsl-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "UPSL WhatsApp bot project (OpenClaw multi-account + n8n workflows)",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "preflight": "node src/preflight.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
