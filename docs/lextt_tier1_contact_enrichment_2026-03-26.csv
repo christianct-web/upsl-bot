@@ -1,0 +1,6 @@
+firm,tier,website,primary_email,primary_phone,key_contacts,source_notes,confidence
+Pollonais Blanc de la Bastide & Jacelon,Tier 1,https://polanc.com/,pbdj@polanc.com,+1-868-612-7235,"Mark Laquis (Managing Partner); Alana Bissessar (Head of Disputes)","Website contact page + playbook names",high
+M. Hamel-Smith & Co.,Tier 1,https://hamel-smith.com/,,,"M. Glenn Hamel-Smith (Senior Partner); Nicole Ferreira-Aaron (Partner); Melissa Inglefield (Partner)","Names from playbook; website contact details not cleanly exposed in static scrape",medium
+Fitzwilliam Stone Furness-Smith & Morgan,Tier 1,https://fitzwilliamstone.com/,,,"Jon Paul Mouttet (Partner); Kurt Miller (Partner); Colin Kangaloo (Partner)","Names from playbook; contact-us page uses dynamic form with no clear mailto/tel in static scrape",medium
+JCS Caribbean Law,Tier 1,https://www.jcscaribbeanlaw.com/,info@jcscaribbeanlaw.com,,"Regional/Cross-border team (specific partner names pending)","Website exposed info@jcscaribbeanlaw.com; remove placeholder yourname@example.com from data",medium
+JD Sellier & Co.,Tier 1,https://jdsellier.com/,,+1-868-623-4283,"Partners TBC via LinkedIn/LATT", "Phone extracted from contact page; partner names still need manual enrichment",medium
